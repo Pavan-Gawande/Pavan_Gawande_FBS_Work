@@ -12,4 +12,5 @@ n = int(input("Enter the number : "))
 facts = factors(n)
 print(f'factors of {n} are ',end=" ")
 for i in facts:
+
     print(i, end=" ")
